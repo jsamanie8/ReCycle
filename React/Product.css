@@ -1,0 +1,108 @@
+.centered-and-cropped {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.isDisabled {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.underline {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+.specs {
+  margin: auto;
+  cursor: pointer;
+  color: black;
+}
+
+.values {
+  margin: auto;
+  cursor: pointer;
+  color: black;
+}
+
+.details {
+  position: relative;
+  bottom: 0;
+}
+
+.return {
+  color: #007bff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.mr-2 {
+  cursor: pointer;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+.formCard {
+  margin: 10px auto;
+  margin-top: 20px;
+  box-shadow: 0px 0px 7px 4px #d6d8db;
+}
+
+div.a {
+  text-align: center;
+}
+
+hr {
+  border-top: 1px solid #aaaaaf;
+}
+
+div.row {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #0b0000;
+  font-size: 0.875rem;
+}
+
+div.col-lg-6.text-center {
+  text-align: justify;
+}
+
+button.btn.btn-warning.btn-lg.btn-block {
+  border-radius: 3px;
+  background-color: #f4f508;
+  font-size: 20px;
+  height: 60px;
+  -webkit-appearance: none;
+  outline: none !important;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  color: #131212;
+  border-color: #f4f508;
+}
+
+div.nav.nav-tabs {
+  margin-top: 25px;
+  border-style: hidden;
+  margin-left: 35px;
+}
+
+div.tab-content {
+  padding: 10px 20px;
+  border-style: hidden;
+}
+
+a.nav-item.nav-link.active.show {
+  color: #495057;
+  background-color: #fefeff;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+
+a.nav-item.nav-link {
+  color: #f5e7e7;
+  background-color: #56a349;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
